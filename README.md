@@ -2,9 +2,9 @@
 
 examples: 
 	
-	./validemail "login@example.com"
-	./validemail "\"login\"@example.com"
-	./validemail "login@[domain]"
+	./validemail.py "login@example.com"
+	./validemail.py "\"login\"@example.com"
+	./validemail.py "login@[domain]"
 
 result:
 
